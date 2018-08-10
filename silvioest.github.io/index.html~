@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Análise de Pesquisa</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+       <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+
+			<span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">Análise de Pesquisa</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                      <a href="#Artigos">Artigos</a>
+                    </li>
+                    <li>
+                         <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                         <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/contato.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+				                      
+			<h2><span style="color:#FFFFFF; text-shadow: 2px 2px 4px #000000"><font size="6">Análise de Pesquisa</font></span></h2> 
+                        <hr class="small">
+                        <span class="subheading"><span style="color:#FFFFFF; text-shadow: 2px 2px 4px #000000; <font size="5">Análise de Dados - Estatística - Software R - Aplicações Práticas</font></span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Introduction Grid Section -->
+ <section id="Artigos">
+    <article>
+        <div class="container">
+            <div class="row">
+ 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <h2 class="post-title">
+			<h2>Artigos</h2>
+                    <hr class="star-primary">
+		    <div class="post-preview">
+                    <a href="#OquePsi">
+                        <h2 class="post-title">
+                           Análise de pesquisa com escala do tipo likert
+                        </h2>
+                        <h3 class="post-subtitle">
+                         Que diabos é esse tal de likert
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Análise de Pesquisa</a> on September 24, 2016</p>
+                </div>
+                <hr>
+
+		<div class="post-preview">
+                    <a href="#OquePsi">
+                        <h2 class="post-title">
+                           O que é a Psicometria?
+                        </h2>
+                        <h3 class="post-subtitle">
+                         Uma área da psicologia que faz vinculo entre as ciências exatas, principalmente a estatística é a psicometria.
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Análise de Pesquisa</a> on September 24, 2016</p>
+                </div>
+                <hr>
+
+ 		<div class="post-preview">
+                    <a href="#OqueCd">
+                        <h2 class="post-title">
+                            O que é um cientista de dados?
+                        </h2>
+ 			<h3 class="post-subtitle">
+                        Um cientista, em um sentido mais amplo, refere-se a qualquer pessoa que exerça uma atividade sistemática para obter conhecimento. 
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Análise de Pesquisa</a> on September 18, 2016</p>
+                </div>
+                <hr>
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+ <!--#### teste -->
+<!-- code folding -->
+
+ <article>
+        <div class="container">
+
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    
+<h1 class="title toc-ignore">Análise de Pesquisa com Escala do Tipo Likert</h1>
+<h4 class="author"><em>silvio</em></h4>
+<h4 class="date"><em>13 de outubro de 2017</em></h4>
+  
+<div id="escala-likert" class="section level2">
+<h3>Escala Likert</h3>
+<p>A escala de Likert é uma escala psicométrica das mais conhecidas e utilizada em pesquisas de opinião, já que pretende registrar o nível de concordância ou discordância com uma declaração dada.</p>
+<p>Ao contrário das perguntas sim/não, a escala de Likert nos permite medir as atitudes e conhecer o grau de conformidade do entrevistado com qualquer afirmação proposta.</p>
+<p>Esta escala tem seu nome devido à publicação de um relatório explicando seu uso por Rensis Likert.</p>
+<div class="figure">
+<img src="likert1.jpg">
+
+</div>
+<p>Fonte: <a href="https://pt.wikipedia.org/wiki/Escala_Likert" class="uri">https://pt.wikipedia.org/wiki/Escala_Likert</a></p>
+<p>Fonte: <a href="http://www.netquest.com/blog/br/escala-likert/" class="uri">http://www.netquest.com/blog/br/escala-likert/</a></p>
+</div>
+
+<div id="exemplo-de-escala-likert" class="section level2">
+<h2>Exemplo de Escala Likert</h2>
+<p>Exemplo 1</p>
+<p><strong>Item - Estou satisfeito com minha remuneração.</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>Ordem</th>
+<th>Categoria</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>discordo fortemente</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>discordo</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>neutro</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>concordo</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>concordo fortemente</td>
+</tr>
+</tbody>
+</table>
+<p>Exemplo 2</p>
+<p><strong>Item - Meu trabalho prejudica a minha saúde.</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>Ordem</th>
+<th>Categoria</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>discordo totalmente</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>discordo em grande parte</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>discordo em parte</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>neutro</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>concordo em parte</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>concordo em grande parte</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>concordo totalmente</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div id="analise-descritiva-utilizando-o-pacote-likert" class="section level2">
+<h2>Análise descritiva utilizando o pacote likert</h2>
+<div id="likert" class="section level3">
+<h3>LIKERT</h3>
+<p>Um pacote do R para análise e visualização de itens com escala do tipo likert</p>
+<p><a href="http://jason.bryer.org/likert/" class="uri">http://jason.bryer.org/likert/</a></p>
+<p>Exemplo: Pesquisa de Qualidade de Vida no Trabalho - QVT</p>
+<p>Amostra de tamano n = 1148</p>
+<p>Quantidade de itens = 44</p>
+<pre class="r"><code># Pacotes para ler dados em planilhas do excel
+library(readxl)
+# pacotes para manipular dados
+library(plyr)
+# pacotes para análide de dados do tipo likert
+library(likert)</code></pre>
+<pre><code>## Loading required package: ggplot2</code></pre>
+<pre><code>## Loading required package: xtable</code></pre>
+<pre><code>## Warning: replacing previous import by 'plyr::llply' when loading 'likert'</code></pre>
+<p>Lendo arquivos de dados</p>
+<pre class="r"><code>QVT_analise &lt;- read_excel(&quot;~/Apresentacao/QVT_analise.xlsx&quot;)
+dadosQVT&lt;- QVT_analise[,2:45]
+head(dadosQVT)</code></pre>
+<pre><code>## # A tibble: 6 x 44
+##   item1 item2 item3 item4 item5 item6 item7 item8 item9 item10 item11
+##   &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
+## 1    NA    NA    NA    NA    NA    NA    NA    NA    NA     NA     NA
+## 2     4     4     2     3     2     3     4     3     5      3      2
+## 3     4     4     4     4     1     5     5     5     5      4      5
+## 4     4     3     4     3     4     2     1     1     4      3      5
+## 5     3     3     3     4     3     4     3     3     4      4      5
+## 6     1     2     3     3     2     2     1     3     3      3      4
+## # ... with 33 more variables: item12 &lt;dbl&gt;, item13 &lt;dbl&gt;, item14 &lt;dbl&gt;,
+## #   item15 &lt;dbl&gt;, item16 &lt;dbl&gt;, item17 &lt;dbl&gt;, item18 &lt;dbl&gt;, item19 &lt;dbl&gt;,
+## #   item20 &lt;dbl&gt;, item21 &lt;dbl&gt;, item22 &lt;dbl&gt;, item23 &lt;dbl&gt;, item24 &lt;dbl&gt;,
+## #   item25 &lt;dbl&gt;, item26 &lt;dbl&gt;, item27 &lt;dbl&gt;, item28 &lt;dbl&gt;, item29 &lt;dbl&gt;,
+## #   item30 &lt;dbl&gt;, item31 &lt;dbl&gt;, item32 &lt;dbl&gt;, item33 &lt;dbl&gt;, item34 &lt;dbl&gt;,
+## #   item35 &lt;dbl&gt;, item36 &lt;dbl&gt;, item37 &lt;dbl&gt;, item38 &lt;dbl&gt;, item39 &lt;dbl&gt;,
+## #   item40 &lt;dbl&gt;, item41 &lt;dbl&gt;, item42 &lt;dbl&gt;, item43 &lt;dbl&gt;, item44 &lt;dbl&gt;</code></pre>
+<p>Inserindo Label nas escalas</p>
+<pre class="r"><code>dadosQVT &lt;- data.frame(lapply(dadosQVT, factor, ordered=TRUE, 
+                                   levels=1:5, 
+                                   labels=c(&quot;1 – discordo fortemente&quot;,
+                                            &quot;2 – discordo&quot;,
+                                            &quot;3 – neutro&quot;,
+                                            &quot;4 – concordo&quot;,
+                                            &quot;5 – concordo fortemente&quot;)))
+head(dadosQVT)</code></pre>
+<pre><code>##                     item1        item2        item3        item4
+## 1                    &lt;NA&gt;         &lt;NA&gt;         &lt;NA&gt;         &lt;NA&gt;
+## 2            4 – concordo 4 – concordo 2 – discordo   3 – neutro
+## 3            4 – concordo 4 – concordo 4 – concordo 4 – concordo
+## 4            4 – concordo   3 – neutro 4 – concordo   3 – neutro
+## 5              3 – neutro   3 – neutro   3 – neutro 4 – concordo
+## 6 1 – discordo fortemente 2 – discordo   3 – neutro   3 – neutro
+##                     item5                   item6                   item7
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2            2 – discordo              3 – neutro            4 – concordo
+## 3 1 – discordo fortemente 5 – concordo fortemente 5 – concordo fortemente
+## 4            4 – concordo            2 – discordo 1 – discordo fortemente
+## 5              3 – neutro            4 – concordo              3 – neutro
+## 6            2 – discordo            2 – discordo 1 – discordo fortemente
+##                     item8                   item9       item10
+## 1                    &lt;NA&gt;                    &lt;NA&gt;         &lt;NA&gt;
+## 2              3 – neutro 5 – concordo fortemente   3 – neutro
+## 3 5 – concordo fortemente 5 – concordo fortemente 4 – concordo
+## 4 1 – discordo fortemente            4 – concordo   3 – neutro
+## 5              3 – neutro            4 – concordo 4 – concordo
+## 6              3 – neutro              3 – neutro   3 – neutro
+##                    item11                  item12                  item13
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2            2 – discordo              3 – neutro              3 – neutro
+## 3 5 – concordo fortemente            4 – concordo 5 – concordo fortemente
+## 4 5 – concordo fortemente 5 – concordo fortemente            4 – concordo
+## 5 5 – concordo fortemente            4 – concordo            4 – concordo
+## 6            4 – concordo              3 – neutro              3 – neutro
+##                    item14                  item15                  item16
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2              3 – neutro            4 – concordo            2 – discordo
+## 3 5 – concordo fortemente 5 – concordo fortemente 5 – concordo fortemente
+## 4 5 – concordo fortemente            4 – concordo 5 – concordo fortemente
+## 5            4 – concordo 5 – concordo fortemente              3 – neutro
+## 6              3 – neutro            2 – discordo            2 – discordo
+##                    item17                  item18                  item19
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2            4 – concordo            4 – concordo 5 – concordo fortemente
+## 3 5 – concordo fortemente 5 – concordo fortemente 5 – concordo fortemente
+## 4 5 – concordo fortemente            4 – concordo 5 – concordo fortemente
+## 5            4 – concordo            4 – concordo 5 – concordo fortemente
+## 6            4 – concordo            4 – concordo              3 – neutro
+##                    item20                  item21                  item22
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2            4 – concordo 5 – concordo fortemente            4 – concordo
+## 3 5 – concordo fortemente            4 – concordo 5 – concordo fortemente
+## 4            4 – concordo            4 – concordo 5 – concordo fortemente
+## 5 5 – concordo fortemente 5 – concordo fortemente 5 – concordo fortemente
+## 6 1 – discordo fortemente            4 – concordo            4 – concordo
+##                    item23                  item24                  item25
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2            4 – concordo            4 – concordo 1 – discordo fortemente
+## 3 5 – concordo fortemente 5 – concordo fortemente              3 – neutro
+## 4            2 – discordo            4 – concordo            2 – discordo
+## 5            4 – concordo 5 – concordo fortemente            2 – discordo
+## 6            4 – concordo            4 – concordo            4 – concordo
+##                    item26                  item27                  item28
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2            4 – concordo              3 – neutro            4 – concordo
+## 3 5 – concordo fortemente 5 – concordo fortemente 5 – concordo fortemente
+## 4            2 – discordo            4 – concordo            4 – concordo
+## 5              3 – neutro            4 – concordo              3 – neutro
+## 6            4 – concordo            4 – concordo              3 – neutro
+##         item29                  item30                  item31
+## 1         &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2   3 – neutro            4 – concordo            4 – concordo
+## 3 4 – concordo 5 – concordo fortemente 5 – concordo fortemente
+## 4 2 – discordo            4 – concordo            2 – discordo
+## 5 4 – concordo            4 – concordo              3 – neutro
+## 6 4 – concordo              3 – neutro 1 – discordo fortemente
+##                    item32       item33                  item34
+## 1                    &lt;NA&gt;         &lt;NA&gt;                    &lt;NA&gt;
+## 2            4 – concordo 2 – discordo            2 – discordo
+## 3 5 – concordo fortemente 4 – concordo 5 – concordo fortemente
+## 4 5 – concordo fortemente 4 – concordo              3 – neutro
+## 5              3 – neutro   3 – neutro              3 – neutro
+## 6            4 – concordo   3 – neutro            2 – discordo
+##                    item35                  item36                  item37
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2            4 – concordo            4 – concordo 5 – concordo fortemente
+## 3 5 – concordo fortemente 5 – concordo fortemente 5 – concordo fortemente
+## 4            2 – discordo            4 – concordo            4 – concordo
+## 5              3 – neutro            4 – concordo            4 – concordo
+## 6              3 – neutro            2 – discordo            4 – concordo
+##                    item38                  item39                  item40
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2 5 – concordo fortemente            4 – concordo            4 – concordo
+## 3 5 – concordo fortemente 5 – concordo fortemente 5 – concordo fortemente
+## 4 5 – concordo fortemente 5 – concordo fortemente 5 – concordo fortemente
+## 5            4 – concordo 5 – concordo fortemente            4 – concordo
+## 6              3 – neutro            4 – concordo              3 – neutro
+##                    item41                  item42                  item43
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2            2 – discordo 5 – concordo fortemente            4 – concordo
+## 3 1 – discordo fortemente            2 – discordo 5 – concordo fortemente
+## 4            4 – concordo            2 – discordo 5 – concordo fortemente
+## 5            2 – discordo              3 – neutro 5 – concordo fortemente
+## 6            2 – discordo            2 – discordo            2 – discordo
+##                    item44
+## 1                    &lt;NA&gt;
+## 2            4 – concordo
+## 3 5 – concordo fortemente
+## 4 5 – concordo fortemente
+## 5 5 – concordo fortemente
+## 6            4 – concordo</code></pre>
+<p>Colocando a redação nos itens</p>
+<pre class="r"><code>dadosQVT &lt;- rename(dadosQVT, c(
+  'item1'='Pergunta 01',
+  'item2'='Pergunta 02',
+  'item3'='Pergunta 03',
+  'item4'='Pergunta 04',
+  'item5'='Pergunta 05',
+  'item6'='Pergunta 06',
+  'item7'='Pergunta 07',
+  'item8'='Pergunta 08',
+  'item9'='Pergunta 09',
+  'item10'='Pergunta 10',
+  'item11'='Pergunta 11',
+  'item12'='Pergunta 12',
+  'item13'='Pergunta 13',
+  'item14'='Pergunta 14',
+  'item15'='Pergunta 15',
+  'item16'='Pergunta 16',
+  'item17'='Pergunta 17',
+  'item18'='Pergunta 18',
+  'item19'='Pergunta 19',
+  'item20'='Pergunta 20',
+  'item21'='Pergunta 21',
+  'item22'='Pergunta 22',
+  'item23'='Pergunta 23',
+  'item24'='Pergunta 24',
+  'item25'='Pergunta 25',
+  'item26'='Pergunta 26',
+  'item27'='Pergunta 27',
+  'item28'='Pergunta 28',
+  'item29'='Pergunta 29',
+  'item30'='Pergunta 30',
+  'item31'='Pergunta 31',
+  'item32'='Pergunta 32',
+  'item33'='Pergunta 33',
+  'item34'='Pergunta 34',
+  'item35'='Pergunta 35',
+  'item36'='Pergunta 36',
+  'item37'='Pergunta 37',
+  'item38'='Pergunta 38',
+  'item39'='Pergunta 39',
+  'item40'='Pergunta 40',
+  'item41'='Pergunta 41',
+  'item42'='Pergunta 42',
+  'item43'='Pergunta 43',
+  'item44'='Pergunta 44'
+))
+
+head(dadosQVT)</code></pre>
+<pre><code>##               Pergunta 01  Pergunta 02  Pergunta 03  Pergunta 04
+## 1                    &lt;NA&gt;         &lt;NA&gt;         &lt;NA&gt;         &lt;NA&gt;
+## 2            4 – concordo 4 – concordo 2 – discordo   3 – neutro
+## 3            4 – concordo 4 – concordo 4 – concordo 4 – concordo
+## 4            4 – concordo   3 – neutro 4 – concordo   3 – neutro
+## 5              3 – neutro   3 – neutro   3 – neutro 4 – concordo
+## 6 1 – discordo fortemente 2 – discordo   3 – neutro   3 – neutro
+##               Pergunta 05             Pergunta 06             Pergunta 07
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2            2 – discordo              3 – neutro            4 – concordo
+## 3 1 – discordo fortemente 5 – concordo fortemente 5 – concordo fortemente
+## 4            4 – concordo            2 – discordo 1 – discordo fortemente
+## 5              3 – neutro            4 – concordo              3 – neutro
+## 6            2 – discordo            2 – discordo 1 – discordo fortemente
+##               Pergunta 08             Pergunta 09  Pergunta 10
+## 1                    &lt;NA&gt;                    &lt;NA&gt;         &lt;NA&gt;
+## 2              3 – neutro 5 – concordo fortemente   3 – neutro
+## 3 5 – concordo fortemente 5 – concordo fortemente 4 – concordo
+## 4 1 – discordo fortemente            4 – concordo   3 – neutro
+## 5              3 – neutro            4 – concordo 4 – concordo
+## 6              3 – neutro              3 – neutro   3 – neutro
+##               Pergunta 11             Pergunta 12             Pergunta 13
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2            2 – discordo              3 – neutro              3 – neutro
+## 3 5 – concordo fortemente            4 – concordo 5 – concordo fortemente
+## 4 5 – concordo fortemente 5 – concordo fortemente            4 – concordo
+## 5 5 – concordo fortemente            4 – concordo            4 – concordo
+## 6            4 – concordo              3 – neutro              3 – neutro
+##               Pergunta 14             Pergunta 15             Pergunta 16
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2              3 – neutro            4 – concordo            2 – discordo
+## 3 5 – concordo fortemente 5 – concordo fortemente 5 – concordo fortemente
+## 4 5 – concordo fortemente            4 – concordo 5 – concordo fortemente
+## 5            4 – concordo 5 – concordo fortemente              3 – neutro
+## 6              3 – neutro            2 – discordo            2 – discordo
+##               Pergunta 17             Pergunta 18             Pergunta 19
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2            4 – concordo            4 – concordo 5 – concordo fortemente
+## 3 5 – concordo fortemente 5 – concordo fortemente 5 – concordo fortemente
+## 4 5 – concordo fortemente            4 – concordo 5 – concordo fortemente
+## 5            4 – concordo            4 – concordo 5 – concordo fortemente
+## 6            4 – concordo            4 – concordo              3 – neutro
+##               Pergunta 20             Pergunta 21             Pergunta 22
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2            4 – concordo 5 – concordo fortemente            4 – concordo
+## 3 5 – concordo fortemente            4 – concordo 5 – concordo fortemente
+## 4            4 – concordo            4 – concordo 5 – concordo fortemente
+## 5 5 – concordo fortemente 5 – concordo fortemente 5 – concordo fortemente
+## 6 1 – discordo fortemente            4 – concordo            4 – concordo
+##               Pergunta 23             Pergunta 24             Pergunta 25
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2            4 – concordo            4 – concordo 1 – discordo fortemente
+## 3 5 – concordo fortemente 5 – concordo fortemente              3 – neutro
+## 4            2 – discordo            4 – concordo            2 – discordo
+## 5            4 – concordo 5 – concordo fortemente            2 – discordo
+## 6            4 – concordo            4 – concordo            4 – concordo
+##               Pergunta 26             Pergunta 27             Pergunta 28
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2            4 – concordo              3 – neutro            4 – concordo
+## 3 5 – concordo fortemente 5 – concordo fortemente 5 – concordo fortemente
+## 4            2 – discordo            4 – concordo            4 – concordo
+## 5              3 – neutro            4 – concordo              3 – neutro
+## 6            4 – concordo            4 – concordo              3 – neutro
+##    Pergunta 29             Pergunta 30             Pergunta 31
+## 1         &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2   3 – neutro            4 – concordo            4 – concordo
+## 3 4 – concordo 5 – concordo fortemente 5 – concordo fortemente
+## 4 2 – discordo            4 – concordo            2 – discordo
+## 5 4 – concordo            4 – concordo              3 – neutro
+## 6 4 – concordo              3 – neutro 1 – discordo fortemente
+##               Pergunta 32  Pergunta 33             Pergunta 34
+## 1                    &lt;NA&gt;         &lt;NA&gt;                    &lt;NA&gt;
+## 2            4 – concordo 2 – discordo            2 – discordo
+## 3 5 – concordo fortemente 4 – concordo 5 – concordo fortemente
+## 4 5 – concordo fortemente 4 – concordo              3 – neutro
+## 5              3 – neutro   3 – neutro              3 – neutro
+## 6            4 – concordo   3 – neutro            2 – discordo
+##               Pergunta 35             Pergunta 36             Pergunta 37
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2            4 – concordo            4 – concordo 5 – concordo fortemente
+## 3 5 – concordo fortemente 5 – concordo fortemente 5 – concordo fortemente
+## 4            2 – discordo            4 – concordo            4 – concordo
+## 5              3 – neutro            4 – concordo            4 – concordo
+## 6              3 – neutro            2 – discordo            4 – concordo
+##               Pergunta 38             Pergunta 39             Pergunta 40
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2 5 – concordo fortemente            4 – concordo            4 – concordo
+## 3 5 – concordo fortemente 5 – concordo fortemente 5 – concordo fortemente
+## 4 5 – concordo fortemente 5 – concordo fortemente 5 – concordo fortemente
+## 5            4 – concordo 5 – concordo fortemente            4 – concordo
+## 6              3 – neutro            4 – concordo              3 – neutro
+##               Pergunta 41             Pergunta 42             Pergunta 43
+## 1                    &lt;NA&gt;                    &lt;NA&gt;                    &lt;NA&gt;
+## 2            2 – discordo 5 – concordo fortemente            4 – concordo
+## 3 1 – discordo fortemente            2 – discordo 5 – concordo fortemente
+## 4            4 – concordo            2 – discordo 5 – concordo fortemente
+## 5            2 – discordo              3 – neutro 5 – concordo fortemente
+## 6            2 – discordo            2 – discordo            2 – discordo
+##               Pergunta 44
+## 1                    &lt;NA&gt;
+## 2            4 – concordo
+## 3 5 – concordo fortemente
+## 4 5 – concordo fortemente
+## 5 5 – concordo fortemente
+## 6            4 – concordo</code></pre>
+<p>Fazendo leitura de uma dimensão com os 10 primeiros itens</p>
+<pre class="r"><code>dim1&lt;-dadosQVT[,1:10]
+lqvt &lt;- likert(dim1)
+summary(lqvt)</code></pre>
+<pre><code>##           Item      low  neutral     high     mean        sd
+## 8  Pergunta 08 22.13884 16.51032 61.35084 3.482176 1.0264856
+## 7  Pergunta 07 24.55483 14.90159 60.54358 3.436739 1.0726341
+## 9  Pergunta 09 16.21368 26.80412 56.98219 3.499531 0.9918759
+## 6  Pergunta 06 28.02249 15.83880 56.13871 3.335520 1.1492243
+## 1  Pergunta 01 28.66480 17.46032 53.87488 3.301587 1.1071506
+## 3  Pergunta 03 31.40187 29.34579 39.25234 3.067290 1.0112349
+## 2  Pergunta 02 35.42056 28.50467 36.07477 2.968224 1.0616716
+## 4  Pergunta 04 33.61423 31.27341 35.11236 2.947566 1.0413493
+## 10 Pergunta 10 40.11246 34.20806 25.67948 2.737582 1.0735272
+## 5  Pergunta 05 65.13590 13.77694 21.08716 2.314902 1.2175210</code></pre>
+<p>Apresenta as seguintes informações empilhadas</p>
+<p>low= percentual de “discordo fortemente” + “discordo”</p>
+<p>neutral = percentual de neutro</p>
+<p>high = percentual de “concordo fortemente”+“concordo”</p>
+<p>Apresenta o itens de cima para baixo de acordo com o maior pencentual de high</p>
+</div>
+</div>
+
+<div id="analise-grafica" class="section level2">
+<h2>Análise gráfica</h2>
+<p>Gráfico de informações empilhadas valor do percentual de neutro no centro.</p>
+<pre class="r"><code>plot(lqvt)</code></pre>
+<p><img src="img/unnamed-chunk-6-1.png" width="672" /></p>
+<p>Gráfico de informações empilhadas.</p>
+<pre class="r"><code>plot(lqvt, centered = FALSE)</code></pre>
+<p><img src="img/unnamed-chunk-7-1.png" width="672" /></p>
+<p>Gráfico de densidade dos itens</p>
+<pre class="r"><code>plot(lqvt, type = &quot;density&quot;)</code></pre>
+<p><img src="img/unnamed-chunk-8-1.png" width="672" /></p>
+<p>Tabela de densidade de cores</p>
+<pre class="r"><code>plot(lqvt, type = &quot;heat&quot;)</code></pre>
+<p><img src="img/unnamed-chunk-9-1.png" width="672" /></p>
+<pre class="r"><code>lqvtg &lt;- likert(dim1, grouping = QVT_analise$`Qual seu sexo?`)
+print(lqvtg)</code></pre>
+<pre><code>##        Group        Item 1 – discordo fortemente 2 – discordo 3 – neutro
+## 1   Feminino Pergunta 01                5.284553     24.79675   18.08943
+## 2   Feminino Pergunta 02                9.349593     27.84553   27.64228
+## 3   Feminino Pergunta 03                5.081301     27.03252   27.64228
+## 4   Feminino Pergunta 04                7.317073     22.35772   31.70732
+## 5   Feminino Pergunta 05               30.284553     41.05691   12.19512
+## 6   Feminino Pergunta 06                5.894309     23.17073   13.00813
+## 7   Feminino Pergunta 07                3.861789     19.30894   12.19512
+## 8   Feminino Pergunta 08                2.845528     18.69919   14.63415
+## 9   Feminino Pergunta 09                2.032520     11.58537   27.84553
+## 10  Feminino Pergunta 10               13.414634     26.62602   33.53659
+## 11 Masculino Pergunta 01                6.320542     18.73589   17.60722
+## 12 Masculino Pergunta 02                9.255079     24.37923   27.08804
+## 13 Masculino Pergunta 03                7.900677     22.34763   29.57111
+## 14 Masculino Pergunta 04               12.866817     22.79910   30.02257
+## 15 Masculino Pergunta 05               31.376975     27.53950   14.89842
+## 16 Masculino Pergunta 06                6.997743     18.05869   18.05869
+## 17 Masculino Pergunta 07                4.740406     20.54176   17.60722
+## 18 Masculino Pergunta 08                3.837472     19.18736   16.47856
+## 19 Masculino Pergunta 09                6.320542     11.96388   23.70203
+## 20 Masculino Pergunta 10               16.704289     20.09029   34.53725
+## 21      &lt;NA&gt; Pergunta 01                0.000000      0.00000    0.00000
+## 22      &lt;NA&gt; Pergunta 02                0.000000      0.00000    0.00000
+## 23      &lt;NA&gt; Pergunta 03                0.000000      0.00000    0.00000
+## 24      &lt;NA&gt; Pergunta 04                0.000000      0.00000    0.00000
+## 25      &lt;NA&gt; Pergunta 05                0.000000      0.00000    0.00000
+## 26      &lt;NA&gt; Pergunta 06                0.000000      0.00000    0.00000
+## 27      &lt;NA&gt; Pergunta 07                0.000000      0.00000    0.00000
+## 28      &lt;NA&gt; Pergunta 08                0.000000      0.00000    0.00000
+## 29      &lt;NA&gt; Pergunta 09                0.000000      0.00000    0.00000
+## 30      &lt;NA&gt; Pergunta 10                0.000000      0.00000    0.00000
+##    4 – concordo 5 – concordo fortemente
+## 1      42.88618                8.943089
+## 2      31.91057                3.252033
+## 3      35.56911                4.674797
+## 4      35.16260                3.455285
+## 5      12.19512                4.268293
+## 6      46.74797               11.178862
+## 7      53.86179               10.772358
+## 8      54.26829                9.552846
+## 9      46.54472               11.991870
+## 10     23.17073                3.252033
+## 11     45.59819               11.738149
+## 12     32.27991                6.997743
+## 13     34.53725                5.643341
+## 14     30.47404                3.837472
+## 15     18.28442                7.900677
+## 16     41.30926               15.575621
+## 17     43.79233               13.318284
+## 18     46.50113               13.995485
+## 19     43.56659               14.446953
+## 20     24.37923                4.288939
+## 21      0.00000                0.000000
+## 22      0.00000                0.000000
+## 23      0.00000                0.000000
+## 24      0.00000                0.000000
+## 25      0.00000                0.000000
+## 26      0.00000                0.000000
+## 27      0.00000                0.000000
+## 28      0.00000                0.000000
+## 29      0.00000                0.000000
+## 30      0.00000                0.000000</code></pre>
+</div>
+
+
+
+
+</div>
+  
+    
+      
+
+
+</div>
+</div>
+
+<hr>
+
+<!--#### fim do teste -->
+
+
+<!-- Artigo completo -->
+
+<section id="OquePsi">
+
+<article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+	<h2 class="section-heading">O que é Psicometria</h2>
+                    <p>A Psicologia é a ciência que estuda o comportamento humano e seus processos mentais, que passam pela sensação, emoção, percepção, aprendizagem, inteligência. De acordo com Laurentine (2011) as ciências do homem têm sugerido a possibilidade de se encontrar um mínimo de regularidade no fenômeno psicológico. Mas, tais como as da natureza, as regularidades do fenômeno psicológico são falíveis ou probabilísticas.</p>
+
+                    <p>Uma área da psicologia que faz vinculo entre as ciências exatas, principalmente a estatística é a psicometria. Segundo Pasquali (2009): “A psicometria fundamenta-se na teoria da medida em ciências para explicar o sentido que têm as respostas dadas pelos sujeitos a uma série de tarefas e propor técnicas de medida dos processos mentais.”</p>
+
+                    <p>A psicometria consiste em um conjunto de técnicas utilizadas para mensurar, de forma adequada e comprovada experimentalmente, um conjunto de comportamentos que se deseja conhecer melhor. Por meio de testes cuja mensuração é feita atráves de repostas que o indivíduos fornecem aos itens os psicometristas buscam explicar os comportamentos e a optadões humanas. Neste sentido duas são as teorias para tal fim. A Teoria Clássica dos Testes (TCT) e a Teoria de Resposta ao Item (TRI).</p>
+
+                    <p>De acordo com Pasquali (2009), a  TCT se preocupa em explicar o resultado final total, isto é, a soma das respostas dadas a uma série de itens, expressa no chamado escore total. Enquanto a TRI tem como objetivo avaliar a habilidade do indivíduo de acordo com as resposta dadas a cada item, qual é a probabilidade e quais são os fatores que afetam esta probabibilidade de cada item individualmente ser anotada. Enfatiza-se que a TRI compreende modelos para avaliar traços latentes.</p>
+
+                    <p>De acordo com Andrade (2000) a Teoria de Resposta ao Item propõe modelos para traços latentes ou seja, caracterı́sticas do indivı́duo que não podem ser observadas diretamente. Esse tipo de variável deve ser inferida a partir da observação de variáveis secundárias que estejam relacionadas a ela. O que esta metodologia sugere são formas de representar a relação entre a probabilidade de um indivı́duo dar uma certa resposta a um item e seus traços latentes, proficiências ou habilidades na área de conhecimento avaliada.</p>
+<p class="post-meta">Posted by <a href="#">Análise de Pesquisa</a> on September 24, 2016</p>
+</div>
+
+            </div>
+
+        </div>
+    </article>
+
+
+<section id="OqueCd">
+
+<article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+	<h2 class="section-heading">O que é um cientista de dados?</h2>
+                    <p>Vamos aqui tentar reponder está pergunta, afinal o que é um cientista de dados? </p>
+<p>Antes de responder o que é um cientista de dados vamos definir a palavra cientista e dados.</p>
+<p>Um <b>cientista</b>, em um sentido mais amplo, refere-se a qualquer pessoa que exerça uma atividade sistemática para obter conhecimento. Em um sentido mais restrito, cientista refere-se a indivíduos que usam o método científico.</p>
+
+
+<p><b>Dados</b> são um conjunto de valores ou ocorrências em um estado bruto com o qual são obtidas informações com o objetivo de adquirir benefícios. Existem dois tipos de dados: estruturados e não estruturados. Os dados estruturados, que são dados formatados, organizados em tabelas - linhas e colunas - e são facilmente processados, geralmente é utilizado um sistema gerenciador de banco de dados para armazenar esse tipo de dado, um exemplo são os dados gerados por aplicações empresariais. Os dados não estruturados não possuem uma formatação específica e são mais difíceis de serem processados. Por exemplo, mensagens de email, imagens, documentos de texto, mensagens em redes sociais. SHRIVASTAVA; SOMASUNDARAM (2009)</p>
+
+<p><h3>Logo um cientista de dados são aqueles profissionais que conseguem aplicar as técnicas da ciência em bases de dados estruturados ou não.</h3></p>
+<p class="post-meta">Posted by <a href="#">Análise de Pesquisa</a> on September 18, 2016</p>
+</div>
+            </div>
+        </div>
+    </article>
+
+<hr>
+
+
+
+ <!-- Portfolio Grid Section -->
+
+<section id="portfolio">
+    <div class="container">
+  <div class="row">
+	<div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+    <div class="col-sm-4">
+      <h3>Resultados do ENEM 2014</h3>
+      <p>Resultados do Enem por tipo de colégio no Estado de Santa Catarina em 2014</p>
+	<img src="img/portfolio/fig4.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236"><br>
+Para ver clique <a href="https://silvio.shinyapps.io/ENEMSC/" target="_blank">aqui</a>
+    </div>
+    <div class="col-sm-4">
+      <h3>Vestibular do IFSC 2016</h3>
+      <p>Resultados do vestibular e dados socioeconômicos de candidatos do vestibular de ingresso no IFSC</p>
+	<img src="img/portfolio/fig5.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236"><br>
+Para ver clique <a href="https://silvio.shinyapps.io/ingressoifsc/" target="_blank">aqui</a> 
+    </div>
+    <div class="col-sm-4">
+      <h3>Participação do PIB</h3>        
+      <p>Participação (%) dos setores da economia no PIB por cidades e campi dos IFSC em SC</p>
+	<img src="img/portfolio/fig6.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236"><br>
+Para ver clique <a href="https://silvio.shinyapps.io/MAPAIFSC/" target="_blank">aqui</a> 
+    </div>
+
+  </div>
+</div>
+
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Apresentação Shiny</h3>
+      <p>Introdução ao pacote de criação de aplicativo no R - shiny</p>
+	<img src="img/portfolio/fig8.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236"><br>
+Para ver clique <a href="https://silvio.shinyapps.io/ENEMSC/" target="_blank">aqui</a> 
+    </div>
+    <div class="col-sm-4">
+       <h3>Otimização com R</h3>
+      <p>Aplicação do software R em problemas de otimização</p>
+	<img src="img/portfolio/fig9.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236"><br>
+Para ver clique <a href="https://silvio.shinyapps.io/ENEMSC/" target="_blank">aqui</a> 
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+ <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+              
+                    <hr class="star-light">
+  		 <center><img class="img-thumbnail" alt="Cinque Terre" src="img/eu3.jpg" alt=""><c/enter>            
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Doutorando em Engenharia de Produção na Universidade Federal de Santa Catarina, Mestrado em Métodos Numéricos em Engenharia, área de concentração Programação Matemática pela Universidade Federal do Paraná (2010) e graduado em Estatística pela Universidade Federal do Paraná (2004).</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Atualmente é estatístico do Instituto Federal de Santa Catarina. Tem experiência na área de Probabilidade e Estatística, com ênfase em Análise de Dados, atuando principalmente no seguinte tema: modelo de previsão de receitas, estatística bayesiana, geoestatística, pesquisa operacional e métodos de otimização. </p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="https://www.linkedin.com/public-profile/settings?trk=prof-edit-edit-public_profile" class="btn btn-lg btn-outline">
+                   Linkedin
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
